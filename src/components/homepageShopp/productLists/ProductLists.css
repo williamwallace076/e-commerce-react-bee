@@ -1,0 +1,23 @@
+.product-lists{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+}
+
+.products-subtitle{
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #00a951;
+    font-weight: 400;
+}
+
+.product-list-cards{
+    width: max-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}

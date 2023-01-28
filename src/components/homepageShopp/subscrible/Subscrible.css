@@ -1,0 +1,57 @@
+.subscrible-area{
+width: 100%;
+display: flex;
+flex-direction: row;
+}
+
+.subscrible{
+    width: 50%;
+    height: 14rem;
+    background-color: #3f458a;
+    margin: 3rem 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.subscrible-title{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.subscrible-subtitle{
+    margin-top: -2rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.subscrible-input-area{
+    width: 30rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.subscrible-input{
+    padding-left: 1rem;
+    width: 20rem;
+    height: 2rem;
+    border: none;
+}
+.subscrible-input:focus{
+    outline: 1px solid red;
+}
+
+.subscrible-button{
+    width: 9rem;
+    background-color: #00a951;
+    border: none;
+    color: #fff;
+    transition: 0.5 ease-in-out;
+}
+.subscrible-button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}

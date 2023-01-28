@@ -1,0 +1,25 @@
+.category{  
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 135rem;
+
+}
+
+.category-area{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 110rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    gap: 3rem;
+}
+.breadcrumbs{
+    margin-left: 3rem;
+}
+.breadcrumbs span{
+    color: #00a951;
+}

@@ -1,0 +1,35 @@
+.subs-card-comparision{
+    width: 18rem;
+    display: flex;
+    padding-left: 1rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    border:1px solid #d1d1d1;
+    border-left: none;
+    border-top: none;
+}
+
+.card-model, .card-brand, .card-summary{
+    font-size: 0.9rem;
+}
+.card-summary{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+.add-to-cart{
+    width: 8rem;
+    height: 2.5rem;
+    background-color: #fff;
+    border: 1px solid #d1d1d1;
+    margin-bottom: 1rem;
+}
+
+.exclude{
+    border: none;
+}
+
+.add-to-cart:hover, .exclude:hover{
+    cursor: pointer;
+    scale: calc(1.1);
+}

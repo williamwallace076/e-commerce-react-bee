@@ -1,0 +1,62 @@
+@import '../../styles/colors.css';
+
+.left-sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: max-content;
+    margin-bottom: 5rem;
+}
+
+
+.breadcrumbs{
+    margin-left: 3rem;
+}
+
+.breadcrumbs span{
+    color: var(--theme-color-green);
+}
+
+.main-area{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: max-content;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.sidebar-left-area{
+    width: max-content;
+    height: 110rem;
+}
+
+.sidebar-right-area{
+    width: max-content;
+    height: max-content;
+}
+
+.sections{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.sections{
+    color: var(--theme-color-gray);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pagesing{
+    align-self: center;
+}
+
+.pagesing span{
+    color : var(--theme-color-yellow);
+    text-decoration: underline;
+}

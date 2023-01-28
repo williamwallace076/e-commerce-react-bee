@@ -1,0 +1,174 @@
+.shopp-checkout{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 60rem;
+}
+
+.breadcrumbs{
+    align-self: flex-start;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 2rem;
+    margin-left: 4.5rem;
+}
+
+.breadcrumbs span{   
+    color: #00a951;
+}
+
+.formulary-area{
+    width: 80%;
+    height: 40rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.legend-formulary{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-left: 0.6rem;
+}
+
+.formulary{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40rem;
+    font-size: 0.8rem;
+}
+
+.formulary fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+    gap: 0.8rem;
+}
+
+.input-formulary{
+    border: 1px solid #7c7c7c;
+    width: 100%;
+    height: 2rem;
+    margin: 0.5rem 0rem 0.5rem;
+}
+
+.input-area-div{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.double-input-div{
+    display: flex;
+    flex-direction: column;
+}
+.input-area-div .input-formulary{
+    width: 20rem;
+}
+
+
+
+
+
+.details-you-order{
+    height: 40.64rem;
+    width: 35rem;
+    border: 1px solid #7c7c7c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: space-around;
+    margin-top: 0.3rem;
+}
+ 
+.title-you-order{
+    align-self: flex-start;
+    margin-left: 1rem;
+}
+
+.product-resume{
+    width: 100%;
+    height: max-content;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+.table-resume{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+
+}
+
+.tr-subtotal{
+    margin-top: 4rem;
+    
+}
+
+.table-resume tr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tr-thead{
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid #7c7c7c;
+}
+
+.tr-total{
+    padding-top: 0.8rem;
+    border-top: 1px solid #7c7c7c;
+    font-weight: bold;
+}
+
+.paypal-check{
+    border-top: 1px solid #7c7c7c;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    margin-left: 1rem;
+}
+
+.paypal-check p{
+    margin-left: 1rem;
+}
+
+.checkbox-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.buttons-formulary-area{
+    width: 80%;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.bt-place-order{
+    width: 8rem;
+    height: 2rem;
+    background-color: #00a951;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    font-size: 1rem;
+}
+
+.bt-place-order:hover{
+    cursor: pointer;
+}

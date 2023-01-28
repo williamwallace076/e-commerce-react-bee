@@ -1,0 +1,273 @@
+ .BodyShopCart{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.breadcrumbs-bodyshopCart{
+    align-self: flex-start;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 2rem;
+    margin-left: 4.5rem;
+}
+.breadcrumbs-bodyshopCart span{
+    
+    color: #00a951;
+}
+
+.bodyshopp-card{
+    width: 5rem;
+    height: 7rem;
+    background-color: #000;
+}
+ 
+.cart-table{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    border-bottom: none;
+    border-top: none;
+    border-left: 1px solid #7c7c7c;
+    border-right: 1px solid #7c7c7c;
+    border-collapse: collapse;
+}
+
+.cart-table tr{
+    align-items: center;
+    text-align: center;
+    
+}
+
+.cart-table td{
+    text-align: center;
+    width: max-content;
+    border-top: 1px solid #7c7c7c;
+}
+
+.tr-tbody-products{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.size-color{
+    width: max-content;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+
+.cart-table .button-close{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+}
+
+.cart-table .button-close:hover{
+    background-color: #ff0000;
+    cursor: pointer;
+}
+
+.cart-table thead tr{
+    height: 3rem;
+}
+
+.tr-tbody td input{
+    width: 2rem;
+    height: 1.7rem;
+    text-align: center;
+    color: #000;
+} 
+.th-color-size{
+    width: 7rem;
+    padding-right: 2rem;
+    border-right: 1px solid #7c7c7c;
+}
+
+.th-products-bodyshopcard{
+    width: 28rem;
+}
+
+.tr-buttons-cart-table{
+    width: 100%;
+    position: relative;
+    border-top: 1px solid #7c7c7c;
+}
+
+.td-color-size{
+    border-right: 1px solid #7c7c7c;
+}
+
+.butons-cart-table{
+    position: absolute;
+    top: 0.1rem;
+    right: 1rem;
+    bottom: 1rem;
+}
+
+.butons-cart-table{
+    width: 20rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    justify-content: space-around;
+}
+
+.butons-cart-table button{
+    width: 7rem;
+    height: 2rem;
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: transparent;
+    border: 1px solid #000;
+}
+
+.butons-cart-table button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.butons-cart-table .green{
+    width: 9rem;
+    background-color: #00a951;
+    border: none;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+.checkout-area{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 33rem;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 4rem;
+}
+
+.title-input-checkout{
+    font-size: 0.8rem;
+    margin-bottom: 0.4rem;
+}
+
+.title-checkout-components{
+    margin-bottom: 1rem;
+}
+
+.checkout-component{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 2rem;
+    text-align: start;
+    width: 40rem;
+    height: max-content+3rem;
+    margin-bottom: 1rem;
+
+}
+
+.checkout-component-table,.checkout-component-usegift{
+    width: max-content;
+}
+
+.title-checkout-components{
+    font-size: 0.9rem;
+}
+
+.input-checkout{
+    width: 25rem;
+    height: 2rem;
+    border: none;
+    display: inline;
+    font-size: 0.7rem;
+    border: 1px solid #7c7c7c;
+    padding-left: 0.5rem;
+}
+.input-checkout:focus{
+    outline: 0;
+}
+
+.checkout-button{
+    display: inline;
+    width: 7rem;
+    height: 2.25rem;
+    border: none;
+    background-color: #00a951;
+    color: #fff;
+}
+
+.checkout-button.update-totals{
+    background-color: #fff;
+    border: 1px solid #7c7c7c;
+    margin-top: 1rem;
+    color: #000;
+    width: 9rem;
+}
+
+.checkout-button.calculation-table{
+    margin-top: 1rem;
+    margin-left: 13rem;
+    width: 12rem;
+}
+
+.checkout-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.input-area-components{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-calculation-table{
+    height: max-content;
+    width: 30rem;
+    border: 1px solid #7c7c7c; 
+}
+
+.card-calculation-table .total{
+    border-top: 1px solid #7c7c7c;
+}
+
+.card-calculation-table tr{
+    display: flex;
+    height: 3rem;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.card-calculation-table td{
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.checkout-component-table{
+    position: relative;
+}
+
+.bt-link{
+    position: absolute;
+    right: 0;
+}

@@ -1,0 +1,54 @@
+.shop-comparision{  
+    display: flex;
+    flex-direction: column;
+}
+
+.breadcrumbs{
+    margin-left: 3rem;
+}
+
+.breadcrumbs span{
+color: #00a951;
+}
+.comparision-area{
+   margin-top: 3rem;
+   margin-bottom: 5rem;
+   align-self: center;
+   width: 64rem;
+   height: 45rem;
+   display: grid;
+   grid-template-columns: 1fr 3fr 3fr 3fr;
+   text-align: center;
+   justify-content: space-around;
+}
+
+.items-header,.subs-header{
+    width: 7rem;
+    height: 22.5rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d1d1d1;
+    font-size: 0.8rem;  
+}
+
+.subs-header{
+    border-top: none;
+}
+
+.products, .image{
+    margin-bottom: 5rem;
+}
+.Price{
+    margin-top: 3rem;
+}
+
+.subs-header p {
+    font-size: 0.8rem;
+}
+
+.model{
+    margin-bottom: 1.5rem;
+}
+.brand{
+    margin-bottom: 4rem;
+}

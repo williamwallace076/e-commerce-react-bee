@@ -1,0 +1,18 @@
+.static-icon{
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.title-icon{
+    font-size: 0.9rem;
+}
+
+.subtitle-icon{
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #848484;
+}

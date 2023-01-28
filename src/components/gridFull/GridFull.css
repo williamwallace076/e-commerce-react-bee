@@ -1,0 +1,47 @@
+@import '../../styles/colors.css';
+
+.full-grid{
+    display: flex;
+    flex-direction: column;
+}
+
+.breadcrumbs{
+    margin-left: 3rem;
+}
+
+.breadcrumbs span{
+    color: var(--theme-color-green);
+}
+
+.full-grid-area{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 120rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sections{
+    color: var(--theme-color-gray);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.grid-full-products{
+    align-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 4rem;
+}
+
+.pagesing{
+    align-self: center;
+}
+
+.pagesing span{
+    color : var(--theme-color-yellow);
+    text-decoration: underline;
+}

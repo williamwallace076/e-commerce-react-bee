@@ -1,0 +1,137 @@
+@import '../../../styles/colors.css';
+.top-menu{
+    background-color: #000;
+    width: 100%;
+    height: 2.5rem;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-area-links{
+    width: 25em;
+    height: 2rem;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin-left:2rem;
+}
+
+.telphone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+.horizontal-line{
+    border-left: 1px solid #5b5b5b;
+    height: 1rem;
+    margin: 1rem 1rem;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.social-icons{
+    position: relative;
+    right: 2rem;
+    display: flex;
+    flex-direction: row;
+    width: 7rem;
+    gap: 1rem;
+    color: #fff;
+}
+
+.telphone-icon, .email-icon{
+    width: 1rem;
+    height: 1rem;
+}
+
+.navbarIcon{
+    width:1.2rem;
+    height:1.2rem;
+}
+
+.social-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.main-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    color: #000;
+    height: 5rem;
+    gap: 20rem;
+}
+
+.nav-logo{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.nav-logo span{
+    color: var(--theme-color-green);
+}
+
+.nav-pages{
+    width: 10rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+.nav-pages a:hover{
+    color: var(--theme-color-green);
+}
+.main-nav a{
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-right{
+    width: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1.5rem;
+    margin-right: 2rem;
+}
+
+.navbarIcon.cart{
+    position: relative;
+}
+
+.items-On-Cart{
+    display: none;
+    background-color: green;
+    width:1.2rem;
+    height:1.2rem;
+    border: none;
+    border-radius: 50%;
+    font-size: 0.85rem;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    right: 9.8rem;
+    top: 3.7rem;
+}
+
+
+.navbarIcon.cart:hover + .items-On-Cart{
+    display: block;
+}

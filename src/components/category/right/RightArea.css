@@ -1,0 +1,30 @@
+.right-area{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+
+.sections{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.right-area-products{
+    width: 100%;
+    height: max-content;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    gap: 3rem;
+}
+
+.category-pagesing{
+    margin-top: -2rem;
+}

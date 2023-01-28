@@ -1,0 +1,44 @@
+.categorie-card{
+    margin-left: -2rem;
+    width: 100%;
+    height: 25rem;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+.categorie-card:hover{
+    cursor: pointer;
+}
+
+.squad-2{
+    position: absolute;
+    border: 1px solid #fff;
+    width: 14.2rem;
+    height: 14.2rem;
+    top: 6rem;
+    left: 7.5rem;
+    transform: rotate(45deg);
+}
+
+.squad-1{
+    position: absolute;
+    background-color: #202344;
+    width: 13rem;
+    height: 13rem;
+    top: 0.5rem;
+    left: 0.5rem;
+    border: 1px solid #fff;
+}
+
+.categorie-title-area{
+    position: absolute;
+    top:3rem;
+    transform: rotate(-45deg);
+
+}
+
+.categorie-title,.winter-colection{
+    font-size: 1rem;
+    font-weight: 300;
+}

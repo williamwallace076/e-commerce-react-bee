@@ -1,0 +1,30 @@
+@import "./../../styles/colors.css";
+
+.list-full{
+    width: 100%;
+    height: 150rem;
+}
+
+.breadcrumbs{
+    margin-left: 3rem;
+}
+
+.breadcrumbs span{
+    color: var(--theme-color-green);
+}
+
+
+.list-full-area{
+    width: 90rem;
+    height: 140rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.pagesing span{
+    color: var(--theme-color-yellow);
+    text-decoration: underline;
+}
